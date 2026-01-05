@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: K-ON!!!
+title: Coiness-blog
 subtitle: ''
-description: ''
+description: 'Coiness的博客，主要写一下日常的学习、工作、生活，前端相关'
 keywords:
 author: Coiness
 language: ch
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true  # false，把所有的文章插图放在source/imgae下.true，创建文章同名文件夹
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: particlex
+theme: nexmoe
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
