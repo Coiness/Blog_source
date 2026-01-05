@@ -5,11 +5,11 @@
 # Site
 title: Coiness-blog
 subtitle: ''
-description: 'Coiness的博客，主要写一下日常的学习、工作、生活，前端相关'
+description: '这是前端萌新Coiness的博客，主要记录学习、工作、生活相关内容'
 keywords:
 author: Coiness
-language: ch
-timezone: 'Asia/Shanghai'
+language: en
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -40,22 +40,21 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true  # false，把所有的文章插图放在source/imgae下.true，创建文章同名文件夹
+post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
 highlight:
-  line_number: false
+  enable: true
+  line_number: true
   auto_detect: false
   tab_replace: ''
-  wrap: false
-  hljs: false
-        
+  wrap: true
+  hljs: true
 prismjs:
-  preprocess: false
-  line_number: false
+  enable: false
+  preprocess: true
+  line_number: true
   tab_replace: ''
-
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -98,11 +97,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: nexmoe
+theme: kira
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/Coiness/Blog
-  branch: main
+  type: ''
+
+aplayer:
+  asset_inject: false # 禁止 aplayer 注入资源
