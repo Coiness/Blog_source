@@ -1,6 +1,6 @@
-avatar: /images/avatar_serika.jpg # 网站 Logo
+avatar: /Blog_source/images/avatar_serika.jpg # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
-    path: /images/littlehat.jpg
+    path: /Blog_source/images/littlehat.jpg
     width: 1280
     height: 720
 favicon:
